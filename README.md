@@ -1,6 +1,8 @@
 # Video-Summary-IOT
 The official github for ACM MM 2023 paper "**Self-supervised Video Summarization Guided by Semantic Inverse Optimal Transport**"
 
+![scheme](img/vs_scheme.png)
+
 ## ⏳Project Struture
 ```
 .
