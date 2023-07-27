@@ -6,14 +6,23 @@ The official github for ACM MM 2023 paper "**Self-supervised Video Summarization
 .
 ├── dataset
 │   ├── h5_files
-│   ├── pseudo_scores
-│   ├── splits
-│   ├── v_feat
-│   └── w_feat
+│   ├── pseudo_scores (generated pseudo scores)
+│   ├── splits (split files)
+│   ├── v_feat (extracted visual features)
+│   └── w_feat (extracted textual features)
 ├── raw_data
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── SumMe
+│   │   ├── mp4video_shot10_avi (avi format, segmented shots)
+│   │   ├── mp4video (mp4 format, videos)
+│   │   └── generated_texts
+│   │   │   ├── shot10 (BMT captions for each video)
+│   │   │   ├── shot10_all (BMT captions for each shot)
+│   │   │   ├── shot10_new (HiTeA captions for each video)
+│   │   │   └── shot10_new_all (HiTeA captions for each shot)
+│   ├── TVSum
+│   ├── OVP
+│   ├── Youtube
+│   └── Wikihow
 └── src
 ```
 
