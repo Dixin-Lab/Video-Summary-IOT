@@ -103,6 +103,13 @@ python main.py
 ## 📖Citation
 Please cite our paper if you use this code or any of the models:
 ```
+@inproceedings{wang2023self,
+  title={Self-supervised Video Summarization Guided by Semantic Inverse Optimal Transport},
+  author={Wang, Yutong and Xu, Hongteng and Luo, Dixin},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={6611--6622},
+  year={2023}
+}
 ```
 
 ## 💐Acknowledgements
