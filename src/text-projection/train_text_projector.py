@@ -290,8 +290,8 @@ for epoch in range(args.n_epochs):
         row, col = np.diag_indices_from(C_bc_np)
         C_bc_np[row,col] = 0
         C_bc = torch.from_numpy(C_bc_np).to(device).detach()
-        d_kl = F.kl_div(C_bc.log(), C_w)
-
+        kl = nn.KLDivLoss()
+        d_kl = kl(F.log_softmax(torch.flatten(C_w),dim=0), F.softmax(torch.flatten(C_bc),dim=0))
 
         if n_w > 1 and d_kl.item()!=0:
             loss = gap_loss + 1*d_kl
