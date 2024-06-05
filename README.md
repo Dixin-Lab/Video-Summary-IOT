@@ -17,10 +17,10 @@ The official github for [ACM MM 2023 paper](img/VideoSummarization_ACMMM2023.pdf
 │   │   ├── mp4video_shot10_avi (avi format, segmented shots)
 │   │   ├── mp4video (mp4 format, videos)
 │   │   └── generated_texts
-│   │   │   ├── shot10 (BMT captions for each video)
-│   │   │   ├── shot10_all (BMT captions for each shot)
-│   │   │   ├── shot10_new (HiTeA captions for each video)
-│   │   │   └── shot10_new_all (HiTeA captions for each shot)
+│   │       ├── shot10 (BMT captions for each video)
+│   │       ├── shot10_all (BMT captions for each shot)
+│   │       ├── shot10_new (HiTeA captions for each video)
+│   │       └── shot10_new_all (HiTeA captions for each shot)
 │   ├── TVSum
 │   ├── OVP
 │   ├── Youtube
